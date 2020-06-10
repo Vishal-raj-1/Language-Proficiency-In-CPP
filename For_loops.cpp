@@ -26,7 +26,7 @@ int main()
         cout << "eight";
      else if(n == 9)
          cout << "nine";
-     else if(n&1)
+     else if(n&1) //bitwise and
         cout << "odd";
      else 
         cout << "even";
