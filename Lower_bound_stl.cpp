@@ -21,8 +21,10 @@ int main()
     {
         cin >> y;
 
+        //find index
         res = lower_bound(v.begin(),v.end(),y) - v.begin();
-
+        
+        //number exist
         if(v[res] == y)
         {
             cout << "Yes " << res+1 << "\n";
