@@ -5,7 +5,6 @@ int main()
 {
     int n;
     cin >> n;
-    cin.ignore();
     
     if(n == 1)
         cout << "one";
