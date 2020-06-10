@@ -14,7 +14,7 @@ int main()
         cin >> x;
         v.push_back(x);
     }
-
+    //sort the vector in ascending order
     sort(v.begin(),v.end());
 
     for(auto i : v)
