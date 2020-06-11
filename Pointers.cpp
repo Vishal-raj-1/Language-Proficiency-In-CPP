@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 
+// Pass as refrence
 void update(int *a,int *b)
 {
     int temp = *a;

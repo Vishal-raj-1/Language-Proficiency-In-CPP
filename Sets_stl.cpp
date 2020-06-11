@@ -15,10 +15,12 @@ int main()
 
         if(y == 1)
         {
+            //insert x if x is not in set 
             s.insert(x);
         }
         else if(y == 2)
         {
+            //remove x if x is present in set
             s.erase(x);
         }
         else

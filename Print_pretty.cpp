@@ -13,7 +13,7 @@ int main()
         cin >> A >> B >> C;
         //Printing Format
         cout << hex << left << showbase << nouppercase;
-        cout << (long long) A << endl;
+        cout << A << endl;
         
         //Change Printing Format
         cout << dec << right << setw(15) << setfill('_') << showpos << fixed << setprecision(2);

@@ -17,7 +17,7 @@ void printKMax(int *arr,int n,int k)
         {
             dq.pop_front();
         }
-        // move max element to the front
+        // move max element to the front of the deque
         while (!dq.empty() && arr[i] >= arr[dq.back()])
         {
             dq.pop_back();
