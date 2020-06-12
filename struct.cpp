@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+typedef struct
+{
+    int age,standard;
+    string first_name,last_name;
+    
+}Student;
+
+int main()
+{
+    Student st;
+    
+    cin >> st.age >> st.first_name >> st.last_name >> st.standard;
+    
+    cout << st.age << " " << st.first_name << " " << st.last_name << " " << st.standard;
+    
+    return 0;
+}
